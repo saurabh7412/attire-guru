@@ -115,7 +115,7 @@ const navgite = useNavigate()
 							<MenuList style= {{display:"flex", flexDirection:"column"}}>
 							  <MenuItem color={"black"} onClick={()=> {
 								// navgite("https://playful-tiramisu-3e651f.netlify.app/Login")
-								window.open(`https://attire-guru-admin.vercel.app/`,"_self")
+								window.open(`https://attire-guru-admin.vercel.app/Login`,"_self")
 							  }}>Admin</MenuItem>
 							  <MenuItem color={"black"} onClick={handleLogOut}>Log Out</MenuItem>
 							</MenuList>
