@@ -166,7 +166,7 @@ const Login = () => {
               <Stack pt={6}>
                 <Text align={"center"}>
                   Login As 
-                  <Link to="https://attire-guru-admin.netlify.app/Login" color={"#283593"}>
+                  <Link to="https://attire-guru-admin.vercel.app/" color={"#283593"}>
                     <Button variant={"link"} ml={2}>Admin</Button>
                   </Link>
                 </Text>
