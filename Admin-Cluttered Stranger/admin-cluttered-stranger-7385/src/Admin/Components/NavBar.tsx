@@ -37,7 +37,7 @@ const NavBar = () => {
   const handleLogOut =()=>{
     console.log("hi");
     dispatch({type: LOGOUT})
-    window.open(`https://attire-guru.netlify.app/`,"_self")
+    window.open(`https://attire-guru.vercel.app/`,"_self")
     localStorage.clear();
     
   }
